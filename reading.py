@@ -9,10 +9,10 @@ import streamlit as st
 
 def subject(df, su):
     if su == '첫사랑':
-        with st.expander("첫사랑 - 도윤과 하은", width=300):
+        with st.expander("첫사랑 - 도윤과 하은"):
             st.write(df.loc[0, '첫사랑'])
     elif su == '짝사랑':
-        with st.expander("짝사랑 - 민재, 유진, 준우", width=300):
+        with st.expander("짝사랑 - 민재, 유진, 준우"):
             st.write(df.loc[0, '짝사랑'])
     elif su == '재회':
         st.write("작품이 없습니다!\n")
