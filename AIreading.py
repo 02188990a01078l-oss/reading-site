@@ -10,7 +10,8 @@ import pandas as pd
 import reading as r
 
 st.title("📖 AI 독서 사이트")
-st.markdown("이 사이트는 AI로 생성한 다양한 장르의 스토리북과 만화를 볼 수 있고, 사용자가 직접 주제를 선택하고, 스토리를 작성할 수 있습니다!\n")
+st.markdown("이 사이트는 AI로 생성한 다양한 장르의 스토리북을 볼 수 있습니다!\n")
+st.markdown("* 차후에 스토리 작성 기능을 추가할 예정입니다!\n")
 df = pd.read_excel("story.xlsx")
 Sub_select = st.selectbox("주제 선택", ['첫사랑', '짝사랑', '재회', '금지된 사랑', '절친', '배신', '치유',
                                     '트라우마', '청소년기', '복수', '용서'])
