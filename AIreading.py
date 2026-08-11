@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 import reading as r
 
-st.title("📖 AI 독서 사이트")
+st.title("📖 AI 스토리")
 st.markdown("이 사이트는 AI로 생성한 다양한 장르의 스토리북을 볼 수 있습니다!\n")
 st.markdown("* 차후에 스토리 작성 기능을 추가할 예정입니다!\n")
 df = pd.read_excel("story.xlsx")
